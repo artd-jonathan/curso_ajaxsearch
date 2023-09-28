@@ -16,7 +16,7 @@ class Suggest extends \Magento\Search\Controller\Ajax\Suggest
      *
      * @var int
      */
-    const MAX_RESULT_DISPLAY = 5;
+    const MAX_RESULT_DISPLAY = 2;
 
     /**
      * Autocomplete
