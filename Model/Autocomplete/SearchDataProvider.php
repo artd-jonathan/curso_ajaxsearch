@@ -86,6 +86,7 @@ class SearchDataProvider  extends \Magento\CatalogSearch\Model\Autocomplete\Data
      */
     protected function _getProductReviews($product)
     {
+        // return false;
         return $this->_layout->createBlock('Magento\Review\Block\View')
             ->getReviewsSummaryHtml($product, 'short');
     }
